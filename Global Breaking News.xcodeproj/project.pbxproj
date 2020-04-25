@@ -3,19 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96B600012423DC2100B31E60 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B600002423DC2100B31E60 /* NewsView.swift */; };
+		96B600042424D79900B31E60 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B600032424D79900B31E60 /* PostData.swift */; };
+		96B600062424D94E00B31E60 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B600052424D94E00B31E60 /* NetworkManager.swift */; };
+		96B6000A2424F13000B31E60 /* ImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B600092424F13000B31E60 /* ImageFetcher.swift */; };
+		96B6000C2424F4B600B31E60 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B6000B2424F4B600B31E60 /* RemoteImage.swift */; };
+		96B6000E24251CBE00B31E60 /* DetailNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B6000D24251CBE00B31E60 /* DetailNews.swift */; };
+		96B6001024251CFC00B31E60 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B6000F24251CFC00B31E60 /* WebView.swift */; };
 		96B6FFEC2423CFA700B31E60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B6FFEB2423CFA700B31E60 /* AppDelegate.swift */; };
 		96B6FFEE2423CFA700B31E60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B6FFED2423CFA700B31E60 /* SceneDelegate.swift */; };
 		96B6FFF02423CFA700B31E60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B6FFEF2423CFA700B31E60 /* ContentView.swift */; };
 		96B6FFF22423CFAB00B31E60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96B6FFF12423CFAB00B31E60 /* Assets.xcassets */; };
 		96B6FFF52423CFAB00B31E60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96B6FFF42423CFAB00B31E60 /* Preview Assets.xcassets */; };
 		96B6FFF82423CFAB00B31E60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96B6FFF62423CFAB00B31E60 /* LaunchScreen.storyboard */; };
+		96E258A424281A1600292A38 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E258A324281A1600292A38 /* Constant.swift */; };
+		96E258CA2428B7B300292A38 /* SourceNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E258C92428B7B300292A38 /* SourceNews.swift */; };
+		96E258CC2428D55D00292A38 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E258CB2428D55D00292A38 /* Country.swift */; };
+		96E258CE2428EA9A00292A38 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E258CD2428EA9A00292A38 /* HelpView.swift */; };
+		96E258D12429013F00292A38 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 96E258D02429013F00292A38 /* IQKeyboardManagerSwift */; };
+		96F02A9C242649CC0079B5DB /* SelectNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F02A9B242649CC0079B5DB /* SelectNews.swift */; };
+		96F02A9E2426B7990079B5DB /* CategoryedNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F02A9D2426B7980079B5DB /* CategoryedNews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		96B600002423DC2100B31E60 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		96B600032424D79900B31E60 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		96B600052424D94E00B31E60 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		96B600092424F13000B31E60 /* ImageFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFetcher.swift; sourceTree = "<group>"; };
+		96B6000B2424F4B600B31E60 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		96B6000D24251CBE00B31E60 /* DetailNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailNews.swift; sourceTree = "<group>"; };
+		96B6000F24251CFC00B31E60 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		96B6FFE82423CFA700B31E60 /* Global Breaking News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Global Breaking News.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96B6FFEB2423CFA700B31E60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96B6FFED2423CFA700B31E60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +45,12 @@
 		96B6FFF42423CFAB00B31E60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		96B6FFF72423CFAB00B31E60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96B6FFF92423CFAB00B31E60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96E258A324281A1600292A38 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		96E258C92428B7B300292A38 /* SourceNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceNews.swift; sourceTree = "<group>"; };
+		96E258CB2428D55D00292A38 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		96E258CD2428EA9A00292A38 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		96F02A9B242649CC0079B5DB /* SelectNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectNews.swift; sourceTree = "<group>"; };
+		96F02A9D2426B7980079B5DB /* CategoryedNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryedNews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +58,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96E258D12429013F00292A38 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		96B600022424D77F00B31E60 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				96B600032424D79900B31E60 /* PostData.swift */,
+				96B600052424D94E00B31E60 /* NetworkManager.swift */,
+				96B600092424F13000B31E60 /* ImageFetcher.swift */,
+				96B6000F24251CFC00B31E60 /* WebView.swift */,
+				96B6000B2424F4B600B31E60 /* RemoteImage.swift */,
+				96E258CB2428D55D00292A38 /* Country.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
 		96B6FFDF2423CFA700B31E60 = {
 			isa = PBXGroup;
 			children = (
@@ -58,7 +99,9 @@
 			children = (
 				96B6FFEB2423CFA700B31E60 /* AppDelegate.swift */,
 				96B6FFED2423CFA700B31E60 /* SceneDelegate.swift */,
-				96B6FFEF2423CFA700B31E60 /* ContentView.swift */,
+				96E258A324281A1600292A38 /* Constant.swift */,
+				96B600022424D77F00B31E60 /* Modal */,
+				96B6FFFF2423DBF800B31E60 /* View */,
 				96B6FFF12423CFAB00B31E60 /* Assets.xcassets */,
 				96B6FFF62423CFAB00B31E60 /* LaunchScreen.storyboard */,
 				96B6FFF92423CFAB00B31E60 /* Info.plist */,
@@ -73,6 +116,20 @@
 				96B6FFF42423CFAB00B31E60 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		96B6FFFF2423DBF800B31E60 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				96B6FFEF2423CFA700B31E60 /* ContentView.swift */,
+				96E258CD2428EA9A00292A38 /* HelpView.swift */,
+				96B600002423DC2100B31E60 /* NewsView.swift */,
+				96F02A9B242649CC0079B5DB /* SelectNews.swift */,
+				96F02A9D2426B7980079B5DB /* CategoryedNews.swift */,
+				96B6000D24251CBE00B31E60 /* DetailNews.swift */,
+				96E258C92428B7B300292A38 /* SourceNews.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,6 +148,9 @@
 			dependencies = (
 			);
 			name = "Global Breaking News";
+			packageProductDependencies = (
+				96E258D02429013F00292A38 /* IQKeyboardManagerSwift */,
+			);
 			productName = "Global Breaking News";
 			productReference = 96B6FFE82423CFA700B31E60 /* Global Breaking News.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +179,9 @@
 				Base,
 			);
 			mainGroup = 96B6FFDF2423CFA700B31E60;
+			packageReferences = (
+				96E258CF2429013F00292A38 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = 96B6FFE92423CFA700B31E60 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -146,9 +209,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96B600062424D94E00B31E60 /* NetworkManager.swift in Sources */,
+				96B6001024251CFC00B31E60 /* WebView.swift in Sources */,
+				96F02A9C242649CC0079B5DB /* SelectNews.swift in Sources */,
+				96B600042424D79900B31E60 /* PostData.swift in Sources */,
 				96B6FFEC2423CFA700B31E60 /* AppDelegate.swift in Sources */,
+				96B6000C2424F4B600B31E60 /* RemoteImage.swift in Sources */,
+				96B6000E24251CBE00B31E60 /* DetailNews.swift in Sources */,
+				96B600012423DC2100B31E60 /* NewsView.swift in Sources */,
+				96B6000A2424F13000B31E60 /* ImageFetcher.swift in Sources */,
+				96E258CA2428B7B300292A38 /* SourceNews.swift in Sources */,
+				96E258A424281A1600292A38 /* Constant.swift in Sources */,
 				96B6FFEE2423CFA700B31E60 /* SceneDelegate.swift in Sources */,
 				96B6FFF02423CFA700B31E60 /* ContentView.swift in Sources */,
+				96E258CE2428EA9A00292A38 /* HelpView.swift in Sources */,
+				96E258CC2428D55D00292A38 /* Country.swift in Sources */,
+				96F02A9E2426B7990079B5DB /* CategoryedNews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,14 +361,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"Global Breaking News/Preview Content\"";
+				DEVELOPMENT_TEAM = VYA562XNS5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Global Breaking News/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "co.BekirDuran.Global-Breaking-News";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Global-Breaking-News";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -304,14 +384,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"Global Breaking News/Preview Content\"";
+				DEVELOPMENT_TEAM = VYA562XNS5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Global Breaking News/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "co.BekirDuran.Global-Breaking-News";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Global-Breaking-News";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -340,6 +424,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		96E258CF2429013F00292A38 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		96E258D02429013F00292A38 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 96E258CF2429013F00292A38 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 96B6FFE02423CFA700B31E60 /* Project object */;
 }
